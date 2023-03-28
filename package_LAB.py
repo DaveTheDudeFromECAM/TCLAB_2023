@@ -93,13 +93,13 @@ def PID_RT(SP, PV, Man, MVMan, MVFF, Kc, Ti, Td, alpha, Ts, MVMin, MVMax, MV, MV
     E: E (or control Error) vector
     ManFF: Activated FF in manual mode (optional: default boolean value is False)
     PVInit: Initial value for PV (optional: default value is e): used if PID_RT is ran first in the squence and no value of PV is available yet.
-    
+
     method: discretisation method (optional: default value is 'EBD')
     EBD-EBD: EBD for integral action and EBD for derivative action
     EBD-TRAP: EBD for integral action and TRAP for derivative action
     TRAP-EBD: TRAP for integral action and EBD for derivative action
     TRAP-TRAP: TRAP for integral action and TRAP for derivative action
-    
+
     The function "PID_ RT"
     appends new values to the vectors "MV",
     "MVP". "MVI".
